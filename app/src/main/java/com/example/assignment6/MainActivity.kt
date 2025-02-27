@@ -38,17 +38,3 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
-//fun calculateClick(view: View) {
-//    val numAttendStr = numAttendEditText.text.toString()
-//    val numAttend = numAttendStr.toInt()
-//    // Determine how many slices on average each person will eat
-//    val slicesPerPerson = when (howHungryRadioGroup.checkedRadioButtonId) {
-//        R.id.light_radio_button -> 2
-//        R.id.medium_radio_button -> 3
-//        else -> 4
-//    }
-//
-//    val totalPizzas = ceil(numAttend * slicesPerPerson /
-//            SLICES_PER_PIZZA.toDouble()).toInt()
-//    numPizzasTextView.text = "Total pizzas: $totalPizzas"
-//}
