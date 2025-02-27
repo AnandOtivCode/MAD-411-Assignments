@@ -10,6 +10,9 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import kotlin.math.ceil
 
+//Welcomes user by receiving input of their name and displaying back on the screen
+
+
 class MainActivity : AppCompatActivity() {
     private lateinit var nameTextView: TextView
     private lateinit var enterNameView: EditText

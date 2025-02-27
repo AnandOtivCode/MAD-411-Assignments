@@ -50,7 +50,7 @@
         android:layout_marginBottom="444dp"
         android:ems="10"
         android:inputType="text"
-        android:text=""
+        android:hint="Enter your Name"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
